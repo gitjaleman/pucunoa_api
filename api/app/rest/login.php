@@ -9,7 +9,6 @@
       break;
   }
 
-
   function login(){
     $obj = new conn;
     $user = $_GET['user'];
@@ -28,10 +27,6 @@
     }
     return $data;
   }
-
-
-
-
 
   echo json_encode($return);
 ?>

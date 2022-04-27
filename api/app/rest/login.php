@@ -24,6 +24,7 @@
       }
     } else {
       $data['data'] = FALSE;
+      $data['sql'] = $sql;
     }
     return $data;
   }

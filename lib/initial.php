@@ -1,5 +1,4 @@
 <?php
-require SYS_PATH."Put.php";
 require SYS_PATH."Api.php";
 require SYS_PATH."Router.php";
 require APP_PATH."http/routes.php";

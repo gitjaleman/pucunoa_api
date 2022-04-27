@@ -12,7 +12,9 @@
 
   function login(){
     $obj = new conn;
-    $sql = "SELECT * FROM `users`";
+    $user = $_GET['user'];
+    $pass = $_GET['pass'];
+    $sql = "SELECT * FROM `users` WHERE `username` = '$user' AND `userpass`= '$pass'";
     $con = $obj->query($sql);
     $num = mysqli_num_rows($con);
     $data['num'] = $num;

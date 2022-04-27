@@ -1,7 +1,7 @@
 <?php
 class ApiController{
   public function index()                         {Restapi::render("index");}
-  public function vawer()                         {Restapi::render("vawer");}
+  public function login()                         {Restapi::render("login");}
 
   
 

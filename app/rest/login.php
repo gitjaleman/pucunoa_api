@@ -1,6 +1,5 @@
 <?php 
   require "header.php";
-  $obj=new conn;
   http_response_code(200);
   $return=null;
 
@@ -12,7 +11,19 @@
 
 
   function login(){
-    echo "usted esta tratando de acceder al sistema";
+    $obj = new conn;
+    $sql = "SELECT * FROM `users`";
+    $con = $obj->query($sql);
+    $num = mysqli_num_rows($con);
+    $data['num'] = $num;
+    if ($num >= 1) {
+      while ($d = mysqli_fetch_assoc($con)) {
+        $data['data'][] = $d;
+      }
+    } else {
+      $data['data'] = FALSE;
+    }
+    return $data;
   }
 
 

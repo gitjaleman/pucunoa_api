@@ -39,7 +39,7 @@
 							</div>
 							<div class="add-to-link">
 								<ul>
-									<li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+									<li class="cart"><a class="cart-btn" href="#">AGREGAR </a></li>
 
 								</ul>
 							</div>
@@ -72,7 +72,7 @@
 							</div>
 							<div class="add-to-link">
 								<ul>
-									<li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+									<li class="cart"><a class="cart-btn" href="#">AGREGAR </a></li>
 
 								</ul>
 							</div>
@@ -104,7 +104,7 @@
 							</div>
 							<div class="add-to-link">
 								<ul>
-									<li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+									<li class="cart"><a class="cart-btn" href="#">AGREGAR </a></li>
 
 								</ul>
 							</div>
@@ -136,7 +136,7 @@
 							</div>
 							<div class="add-to-link">
 								<ul>
-									<li class="cart"><a class="cart-btn" href="#">ADD TO CART </a></li>
+									<li class="cart"><a class="cart-btn" href="#">AGREGAR </a></li>
 
 								</ul>
 							</div>

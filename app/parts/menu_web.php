@@ -55,7 +55,7 @@
                                     </ul>
                                 </li>
                                 <li class="banner-wrapper">
-                                    <a><img src="../app/assets/images/banner-image/banner-menu.jpg" /></a>
+                                    <a href="productos"><img src="../app/assets/images/banner-image/banner-menu.jpg" /></a>
                                 </li>
                             </ul>
                         </li>
